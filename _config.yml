@@ -3,5 +3,5 @@ pygments: true
 markdown: kramdown
 title: neves blog
 tagline: 
-# description: My awesome new site via <a href="https://tinypress.co/&quot; target=&quot;_blank">Tinypress</a>
+description: "<no-description/>"
 paginate: 5
