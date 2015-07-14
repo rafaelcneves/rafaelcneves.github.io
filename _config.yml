@@ -2,6 +2,7 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 title: neves blog
+url: http://blog.nevesbox.com/
 tagline: 
-description: "&lt;no&dash;description&#47;&gt;"
+description: &lt;no&dash;description&#47;&gt;
 paginate: 5
