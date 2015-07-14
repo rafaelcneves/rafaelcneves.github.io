@@ -3,5 +3,5 @@ pygments: true
 markdown: kramdown
 title: neves blog
 tagline: 
-description: "&lt;no&dash;description&slash;&gt;"
+description: "&lt;no&dash;description&#47;&gt;"
 paginate: 5
