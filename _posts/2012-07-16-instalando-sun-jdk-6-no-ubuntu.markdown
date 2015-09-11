@@ -26,15 +26,15 @@ Mova a pasta gerada para a seguinte pasta:
 
 Instalando o novo source do java no sistema:
 
-``sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1``
-``sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1``
-``sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1``
+<p>`sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1`</p>
+<p>`sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1`</p>
+<p>`sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1`</p>
 
 Atribuindo o java default:
 
-`sudo update-alternatives --config javac`
-`sudo update-alternatives --config java`
-`sudo update-alternatives --config javaws`
+<p>`sudo update-alternatives --config javac`</p>
+<p>`sudo update-alternatives --config java`</p>
+<p>`sudo update-alternatives --config javaws`</p>
 
 Versão do java (teste):
 
