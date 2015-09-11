@@ -14,9 +14,7 @@ Alguns podem perguntar "por que não instalo o openjdk?", a resposta é simples,
 Primeiramente faça o download do sun jdk 6 neste <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html" target="_blank">link</a>.
 Após dê permissão de execução ao mesmo:
 
-[sourcecode language="text" toolbar="false"]
-chmod +x jdk-6u32-linux-x64.bin
-[/sourcecode]
+`chmod +x jdk-6u32-linux-x64.bin`
 
 Execute o binário:
 
