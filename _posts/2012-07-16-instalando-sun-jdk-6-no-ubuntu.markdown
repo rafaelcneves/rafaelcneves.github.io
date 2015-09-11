@@ -26,15 +26,15 @@ Mova a pasta gerada para a seguinte pasta:
 
 Instalando o novo source do java no sistema:
 
-``sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1``
-``sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1``
-``sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1``
+`sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1`
+`sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1`
+`sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1`
 
 Atribuindo o java default:
 
-``sudo update-alternatives --config javac``
-``sudo update-alternatives --config java``
-``sudo update-alternatives --config javaws``
+`sudo update-alternatives --config javac`
+`sudo update-alternatives --config java`
+`sudo update-alternatives --config javaws`
 
 Versão do java (teste):
 
@@ -54,5 +54,4 @@ Instalando o plugin do java no Mozilla Firefox (possivelmente para o Chrome):
 
 `sudo ln -s /usr/lib/jvm/jdk1.6.0_32/jre/lib/i386/libnpjp2.so /usr/lib/mozilla/plugins`
 
-Utilizei para este post um outro blog que também mostra como instalar a versão 7 do java.
-<div style="border:1px solid #86C0FF;background-color:#b6d9ff;padding:20px 20px 20px 80px;background-image:url('http://rnevesblog.files.wordpress.com/2012/08/url.png');border-radius:3px;background-repeat:no-repeat;background-position:10px center;margin-top:35px;"><a href="http://www.devsniper.com/ubuntu-12-04-install-sun-jdk-6-7/" target="_blank">Post original</a></div>
+Utilizei para este post um outro blog que também mostra como instalar a versão 7 do java. <a href="http://www.devsniper.com/ubuntu-12-04-install-sun-jdk-6-7/" target="_blank">Post original</a>
