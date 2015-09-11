@@ -18,43 +18,31 @@ Após dê permissão de execução ao mesmo:
 
 Execute o binário:
 
-[sourcecode language="text" toolbar="false"]
-./jdk-6u32-linux-x64.bin
-[/sourcecode]
+`./jdk-6u32-linux-x64.bin`
 
 Mova a pasta gerada para a seguinte pasta:
 
-[sourcecode language="text" toolbar="false"]
-sudo mv jdk1.6.0_32 /usr/lib/jvm/
-[/sourcecode]
+`sudo mv jdk1.6.0_32 /usr/lib/jvm/`
 
 Instalando o novo source do java no sistema:
 
-[sourcecode language="text" toolbar="false"]
-sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1
+`sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1
-sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1
-[/sourcecode]
+sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1`
 
 Atribuindo o java default:
 
-[sourcecode language="text" toolbar="false"]
-sudo update-alternatives --config javac
+`sudo update-alternatives --config javac
 sudo update-alternatives --config java
-sudo update-alternatives --config javaws
-[/sourcecode]
+sudo update-alternatives --config javaws`
 
 Versão do java (teste):
 
-[sourcecode language="text" toolbar="false"]
-java -version
-[/sourcecode]
+`java -version`
 
 Verifique se os links do sistema apontam para o local correto:
 
-[sourcecode language="text" toolbar="false"]
-ls -la /etc/alternatives/java*
-[/sourcecode]
+`ls -la /etc/alternatives/java*`
 
 Instalando o plugin do java no Mozilla Firefox (possivelmente para o Chrome):
 
