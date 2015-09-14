@@ -16,7 +16,7 @@ tente executar para ver se funcionou:
 
     $ rvm --version
 
-caso não funcione, é possível que você precise de mais algo, normalmente para trabalhar com o gnome-terminal é necessário alterar uma configuração, tudo isso se encontra presente no site do <a href="https://rvm.io//">rvm</a>
+caso não funcione, é possível que você precise de mais algo, normalmente para trabalhar com o gnome-terminal é necessário alterar uma configuração, tudo isso se encontra presente no site do <a href="https://rvm.io//" target="_blank">rvm</a>
 
 após estar com o rvm funcionando, rode o seguinte comando para instalar o ruby, neste caso a versão 1.9.2, versão atual na data deste post:
 
@@ -40,4 +40,4 @@ e podemos instalá-la através do comando:
 
     $ gem install passenger
 
-mais informações de como configurar o passenger podem ser encontrados no próprio site do <a href="https://www.phusionpassenger.com/">passenger</a>.
+mais informações de como configurar o passenger podem ser encontrados no próprio site do <a href="https://www.phusionpassenger.com/" target="_blank">passenger</a>.
