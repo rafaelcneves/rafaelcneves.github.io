@@ -7,12 +7,6 @@ categories: [java]
 ---
 Como primeiro post deste blog, vou passar algo que sempre dá problema quando estou re-instalando minha máquina linux, instalar o java sdk e o plugin para o browser.
 
-Como não funcionou o plugin na versão 7 aqui <del>acho que foi por causa do proxy</del>, vou passar da versão 6 que funcionou muito bem aqui.
-
-Alguns podem perguntar "por que não instalo o openjdk?", a resposta é simples, sempre deu problema comigo na hora de executar algo, então eu evito.
-
-<strong>Instalando Sun JDK 6 no Ubuntu 12.04: </strong>
-
 Primeiramente faça o download do sun jdk 6 neste <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html" target="_blank">link</a>.
 Após dê permissão de execução ao mesmo:
 
