@@ -8,8 +8,8 @@ O objetivo deste post vai ser aquelas ocasiões onde você baixa um pacote e nã
 Então estou criando este post. Usando como base um pouco do conhecimento de linux que adquiri com o tempo, e referência em um post, que vou deixar o link no fim da página.
 
 Vou utilizar para exemplo o sublime text 2, ide que utilizo aqui. E fiz o mesmo no Ubuntu 12.04, mas com certeza deve funcionar em varias outras distros.
-<ol>
-	<li>Crie o arquivo sublime.desktop na pasta /usr/share/applications, ou se preferir não utilizar sudo pode fazer o mesmo na pasta ~/.local/share/applications e edite-o com o seguinte conteúdo:
+
+Crie o arquivo sublime.desktop na pasta /usr/share/applications, ou se preferir não utilizar sudo pode fazer o mesmo na pasta ~/.local/share/applications e edite-o com o seguinte conteúdo:
 
     [Desktop Entry]
     Version=1.0
@@ -22,10 +22,10 @@ Vou utilizar para exemplo o sublime text 2, ide que utilizo aqui. E fiz o mesmo 
     GenericName=Text editor
 
 Dessa forma, seu aplicativo já estará aparecendo no menu, e caso necessário você consegue defini-lo como aplicativo padrão para seus arquivos, o que já resolve o problema da maioria das pessoas.</li>
-	<li>Mas se você é daquele que tem o costume de executar aplicativos pelo terminal, você pode adicionar um link simbólico para o executável no bin:
+
+Mas se você é daquele que tem o costume de executar aplicativos pelo terminal, você pode adicionar um link simbólico para o executável no bin:
 
     cd /usr/bin/
     sudo ln -s ~/downloads/Sublime\ Text\ 2/sublime_text
 
-nesse meu exemplo, se eu executar sublime_text no terminal, irá abrir o sublime</li>
-</ol>
+nesse meu exemplo, se eu executar sublime_text no terminal, irá abrir o sublime.
