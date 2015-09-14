@@ -2,6 +2,8 @@
 published: true
 title: Conhecendo a estrutura do arquivo .desktop
 layout: post
+tags: [linux]
+categories: [linux]
 ---
 No <a title="Adicionando aplicativos ao Linux" href="/2012/09/05/adicionando-aplicativos-ao-linux.html">post anterior</a> eu comentei algo sobre os arquivos .desktop no linux. Então resolvi deixar aqui uma breve explicação sobre esse tipo de arquivo.
 
