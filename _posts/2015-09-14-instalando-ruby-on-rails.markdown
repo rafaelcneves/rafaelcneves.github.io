@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Instalando ruby on rails
 layout: post
 ---
