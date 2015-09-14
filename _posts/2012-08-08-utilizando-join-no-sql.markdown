@@ -2,6 +2,8 @@
 published: true
 title: Utilizando JOIN no SQL
 layout: post
+tags: [join, sql]
+categories: [sql]
 ---
 Bom sempre tive bastante dificuldade para entender as diferenças entre os joins no sql.
 
