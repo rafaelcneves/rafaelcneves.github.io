@@ -13,6 +13,5 @@ Infelizmente, muitos consideram a metaprogramação como pura magia negra, muito
 
 O objetivo deste livro com mais de <strong>60 páginas</strong> é ser um guia com técnicas utilizadas por desenvolvedores Ruby de todo o mundo, com exemplos práticos de como criar DSLs, executar e definir métodos dinamicamente, dentre muitos outros exemplos."
 
-<a href="http://howtocode.com.br/downloads/ruby-metaprogramming.zip">Download do e-book</a>
-
-<a href="http://howtocode.com.br/ebooks/ruby-metaprogramming?simplesideias" target="_blank">Post original</a>
+*<a href="http://howtocode.com.br/downloads/ruby-metaprogramming.zip">Download do e-book</a>*
+*<a href="http://howtocode.com.br/ebooks/ruby-metaprogramming?simplesideias" target="_blank">Post original</a>*
