@@ -2,6 +2,8 @@
 published: true
 title: Ruby Metaprogramming
 layout: post
+tags: [ruby, ebook, metaprogramacao]
+categories: [ruby]
 ---
 Um tempo atrás me passaram o link de um e-book sobre metaprogramação, achei muito interessante e estou postando aqui, estou até copiando o texto porque achei muito bom.
 
