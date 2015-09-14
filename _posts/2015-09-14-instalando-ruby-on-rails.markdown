@@ -3,7 +3,7 @@ published: false
 title: Instalando ruby on rails
 layout: post
 tags: [linux, rails, ruby]
-categories: [linux, rubyonrails]
+categories: [rubyonrails]
 ---
 Uma pergunta que sempre me fazem, principalmente na faculdade, é "como instalo ruby on rails na minha máquina?". Então resolvi fazer um post sobre isso.
 
