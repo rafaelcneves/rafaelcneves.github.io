@@ -23,4 +23,4 @@ Explicando cada item:
 <strong>Categories</strong>: Categoria da aplicação. As principais são: AudioVideo, Audio, Video, Development, Education , Game, Graphics, Network, Office, Settings, System, Utility.  
 <strong>MimeType</strong>: MIME types suportados pela aplicação.
 
-<a href="http://www2.joinville.udesc.br/~colmeia/blog/?p=68" target="_blank">Referência</a>
+*<a href="http://www2.joinville.udesc.br/~colmeia/blog/?p=68" target="_blank">Referência</a>*
