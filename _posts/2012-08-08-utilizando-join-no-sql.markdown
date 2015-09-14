@@ -43,4 +43,4 @@ Este JOIN também é conhecido como FULL OUTER JOIN ou FULL JOIN. Esta consulta 
     FULL OUTER JOIN B B
     ON A.Key = B.Key
 
-<a href="http://sqlfromhell.wordpress.com/2009/09/15/trabalhando-com-join/" target="_blank">Post original</a>
+*<a href="http://sqlfromhell.wordpress.com/2009/09/15/trabalhando-com-join/" target="_blank">Post original</a>*
