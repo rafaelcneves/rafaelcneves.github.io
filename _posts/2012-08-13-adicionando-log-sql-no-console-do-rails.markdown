@@ -9,7 +9,7 @@ Bom, já passei algumas vezes pela necessidade de ter que acrescentar um comando
 
 No linux, crie um arquivo no home do seu usuário, com o nome ".irbrc" com o seguinte conteúdo:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 if defined?(ActiveRecord)
   ActiveRecord::Base.logger = Logger.new(STDOUT)
 end
