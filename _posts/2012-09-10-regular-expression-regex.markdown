@@ -219,11 +219,11 @@ NOTA: O circunflexo usado dentro da classe de caractere é diferente do que deno
 <td>Combina cláusulas de condições dentro de uma regular expression e então encontra qualquer uma das cláusulas. Similar à expressão "OR"</td>
 <td>/(ab)|(cd)|(ef)/ encontra "ab" ou "cd" ou "ef".</td>
 </tr>
-</tbody>
 </table>
+
 <strong>Backreferences</strong>
-<table width="450" border="0" cellspacing="1" cellpadding="5">
-<tbody>
+
+<table>
 <tr>
 <td><strong>Símbolo</strong></td>
 <td><strong>Descrição</strong></td>
