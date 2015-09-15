@@ -9,8 +9,10 @@ Bom, já passei algumas vezes pela necessidade de ter que acrescentar um comando
 
 No linux, crie um arquivo no home do seu usuário, com o nome ".irbrc" com o seguinte conteúdo:
 
-    if defined?(ActiveRecord)
-      ActiveRecord::Base.logger = Logger.new(STDOUT)
-    end
+{% highlight ruby %}
+if defined?(ActiveRecord)
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
+end
+{% endhighlight %}
 
 Então reinicie seu terminal e voilà
