@@ -52,7 +52,7 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 	<tr>
 		<td><span style="color:#0033cc;">\B</span></td>
 		<td>Encontra qualquer parte que não esteja limitada</td>
-		<td>/\Bor/ encontra “or” em "normal" mas não em "origami."</td>
+		<td>/\Bor/ encontra "or" em "normal" mas não em "origami."</td>
 	</tr>
 </table>
 
@@ -110,7 +110,7 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 	</tr>
 </table>
 
-A barra invertida (\) é também usada quando você deseja encontrar um caractere especial literalmente. Por Exemplo, se você deseja encontrar o símbolo "$" ao invés de ter um sinal no final da string, use a barra invertida: /\$/
+A barra invertida (\\) é também usada quando você deseja encontrar um caractere especial literalmente. Por Exemplo, se você deseja encontrar o símbolo "$" ao invés de ter um sinal no final da string, use a barra invertida: /\\$/
 
 <strong>Classes de Caracteres</strong>
 
@@ -167,7 +167,7 @@ A barra invertida (\) é também usada quando você deseja encontrar um caracter
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">\S</span></td>
-		<td>Encontra qualquer caractere que não equivale a um espaço. Equivalent to [^ \t\r\n\v\f]</td>
+		<td>Encontra qualquer caractere que não equivale a um espaço. Equivalente a [^ \t\r\n\v\f]</td>
 		<td></td>
 	</tr>
 </table>
