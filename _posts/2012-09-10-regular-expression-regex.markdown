@@ -332,4 +332,4 @@ Em adição aos caracteres padrões para buscar, você pode usar switches para f
 
 Quando quiser saber se o padrão foi encontrado na string, pode usar o método test ou search. Os métodos exec e match trazem mais informações, porém são mais lentos. Ao usar exec ou match e obter sucesso, será retornado um array e atualizará as propriedades do objeto regular expression associado e também de objetos pré-definidos. Se a pesquisa falir, o método retornará nulo.
 
-<a href="http://imasters.com.br/artigo/2515/javascript/regular_expression/" target="_blank">Referência</a>
+*<a href="http://imasters.com.br/artigo/2515/javascript/regular_expression/" target="_blank">Referência</a>*
