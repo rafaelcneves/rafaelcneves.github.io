@@ -25,8 +25,8 @@ Regular Expression é um padrão de texto que consiste de simples caracteres (da
 Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue abaixo uma lista dos grupos e respectivos caracteres especiais.
 
 <strong>Busca posicionada</strong>
-<table border="0" cellspacing="1" cellpadding="5">
-<tbody>
+
+<table>
 <tr>
 <td><strong>Símbolo</strong></td>
 <td><strong>Descrição</strong></td>
@@ -52,11 +52,11 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 <td>Encontra qualquer parte que não esteja limitada</td>
 <td>/\Bor/ encontra “or” em "normal" mas não em "origami."</td>
 </tr>
-</tbody>
 </table>
+
 <strong>Literais</strong>
-<table width="450" border="0" cellspacing="1" cellpadding="5">
-<tbody>
+
+<table>
 <tr>
 <td><strong>Símbolo</strong></td>
 <td><strong>Descrição</strong></td>
@@ -100,12 +100,13 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 <td>Encontra o caractere ASCII expresso por UNICODE xxxx.
 "\u00A3" encontra "£".</td>
 </tr>
-</tbody>
 </table>
+
 A barra invertida (\) é também usada quando você deseja encontrar um caractere especial literalmente. Por Exemplo, se você deseja encontrar o símbolo "$" ao invés de ter um sinal no final da string, use a barra invertida: /\$/
 
 <strong>Classes de Caracteres</strong>
-<table width="450" border="0" cellspacing="1" cellpadding="5">
+
+<table>
 <tbody>
 <tr>
 <td><strong>Símbolo</strong></td>
@@ -233,13 +234,13 @@ NOTA: O circunflexo usado dentro da classe de caractere é diferente do que deno
 <td>Encontra uma cláusula entre parênteses. n é o número de cláusulas para a esquerda da backreference</td>
 <td>(\w+)\s+\1 encontra quaisquer palavras que ocorra duas vezes na mesma linha, como "hubba hubba." O \1 denota que a primeria palavra depois do espaço deve encontrar a porção da string que foi encontrada no último commando dentro de parênteses. Se existisse mais de um comando dentro de parênteses, você deve usar \2 ou \3 para encontrar o apropriado agrupamento da esquerda da backreference. Até 9 backreferences podem ser usadas no padrão da string</td>
 </tr>
-</tbody>
 </table>
+
 <strong>Modificadores de Padrões</strong>
 
 Em adição aos caracteres padrões para buscar, você pode usar switches para fazer uma pesquisa global, case- insensitive (ignora minúsculas e maiúsculas) ou ambas.
-<table width="450" border="0" cellspacing="1" cellpadding="5">
-<tbody>
+
+<table>
 <tr>
 <td><strong>Propriedade</strong></td>
 <td><strong>Descrição</strong></td>
@@ -310,7 +311,8 @@ Armazena os nove mais recentes pesquisa dentro de parênteses encontradas. Por e
 <td><span style="color:#0066cc;">split</span></td>
 <td>Um método de String que usa uma regular expression ou uma string para quebrar uma string em uma array de substrings</td>
 </tr>
-</tbody>
 </table>
+
 Quando quiser saber se o padrão foi encontrado na string, pode usar o método test ou search. Os métodos exec e match trazem mais informações, porém são mais lentos. Ao usar exec ou match e obter sucesso, será retornado um array e atualizará as propriedades do objeto regular expression associado e também de objetos pré-definidos. Se a pesquisa falir, o método retornará nulo.
-<div style="border:1px solid #86C0FF;background-color:#b6d9ff;padding:20px 20px 20px 80px;background-image:url('http://rnevesblog.files.wordpress.com/2012/08/url.png');border-radius:3px;background-repeat:no-repeat;background-position:10px center;margin-top:5px;"><a href="http://imasters.com.br/artigo/2515/javascript/regular_expression/" target="_blank">Referência</a></div>
+
+<a href="http://imasters.com.br/artigo/2515/javascript/regular_expression/" target="_blank">Referência</a>
