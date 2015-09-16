@@ -17,7 +17,7 @@ Como primeiro post deste blog, vou passar algo que sempre dá problema quando es
 Primeiramente faça o download do sun jdk 6 neste (link)[http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html].
 Após dê permissão de execução ao mesmo:
 
-{% highlight shell %}
+{% highlight bash %}
 chmod +x jdk-6u32-linux-x64.bin
 {% endhighlight %}
 
