@@ -9,4 +9,4 @@ Este é o meu favorito. Já trás uma enorme quantidade de ícones, bonitos por 
 
 <img class="aligncenter wp-image-277 size-medium" style="margin-top:10px;margin-bottom:10px;" title="thenounproject" src="http://rnevesblog.files.wordpress.com/2012/11/thenounproject.png?w=300" alt="The noun project preview" width="300" height="211" />
 
-(*Ir para o site*)[http://thenounproject.com/]
+*(Ir para o site)*[http://thenounproject.com/]
