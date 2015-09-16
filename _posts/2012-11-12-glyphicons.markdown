@@ -9,4 +9,4 @@ Glyphicons é um pacote com 420 ícones bem interessantes e completo. É possív
 
 <img class="aligncenter wp-image-272 size-medium" style="margin-top:10px;margin-bottom:10px;" title="glyphicons" src="http://rnevesblog.files.wordpress.com/2012/11/glyphicons.png?w=300" alt="Glyphicons preview" width="300" height="224" />
 
-*(Ir para o site)[http://glyphicons.com/]*
+*<a href="http://glyphicons.com/" target="_blank">Ir para o site</a>*
