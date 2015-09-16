@@ -25,4 +25,4 @@ Instalação do Grub
 
     sudo grub-install --root-directory=/mnt /dev/sda
 
-<a href="http://www.vivaolinux.com.br/dica/Como-recuperar-o-GRUB-em-3-comandos-Esse-funciona/" target="_blank">Referência</a>
+*<a href="http://www.vivaolinux.com.br/dica/Como-recuperar-o-GRUB-em-3-comandos-Esse-funciona/" target="_blank">Referência</a>*
