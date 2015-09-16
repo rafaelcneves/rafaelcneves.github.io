@@ -5,12 +5,21 @@ layout: post
 tags: [java, linux, ubuntu]
 categories: [java]
 ---
+---
+published: true
+title: Instalando sun jdk 6 no ubuntu
+layout: post
+tags: [java, linux, ubuntu]
+categories: [java]
+---
 Como primeiro post deste blog, vou passar algo que sempre dá problema quando estou re-instalando minha máquina linux, instalar o java sdk e o plugin para o browser.
 
-Primeiramente faça o download do sun jdk 6 neste <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html" target="_blank">link</a>.
+Primeiramente faça o download do sun jdk 6 neste (link)[http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html].
 Após dê permissão de execução ao mesmo:
 
-    chmod +x jdk-6u32-linux-x64.bin
+{% highlight shell %}
+chmod +x jdk-6u32-linux-x64.bin
+{% endhighlight %}
 
 Execute o binário:
 
