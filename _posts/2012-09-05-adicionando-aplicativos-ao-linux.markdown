@@ -13,21 +13,25 @@ Vou utilizar para exemplo o sublime text 2, ide que utilizo aqui. E fiz o mesmo 
 
 Crie o arquivo sublime.desktop na pasta /usr/share/applications, ou se preferir não utilizar sudo pode fazer o mesmo na pasta ~/.local/share/applications e edite-o com o seguinte conteúdo:
 
-    [Desktop Entry]
-    Version=1.0
-    Name=Sublime
-    Exec=sublime-text %f
-    Icon=Sublime
-    Terminal=false
-    Type=Application
-    Categories=Motif;Utility;TextTools;
-    GenericName=Text editor
+{% highlight bash %}
+[Desktop Entry]
+Version=1.0
+Name=Sublime
+Exec=sublime-text %f
+Icon=Sublime
+Terminal=false
+Type=Application
+Categories=Motif;Utility;TextTools;
+GenericName=Text editor
+{% endhighlight %}
 
-Dessa forma, seu aplicativo já estará aparecendo no menu, e caso necessário você consegue defini-lo como aplicativo padrão para seus arquivos, o que já resolve o problema da maioria das pessoas.</li>
+Dessa forma, seu aplicativo já estará aparecendo no menu, e caso necessário você consegue defini-lo como aplicativo padrão para seus arquivos, o que já resolve o problema da maioria das pessoas.
 
 Mas se você é daquele que tem o costume de executar aplicativos pelo terminal, você pode adicionar um link simbólico para o executável no bin:
 
-    cd /usr/bin/
-    sudo ln -s ~/downloads/Sublime\ Text\ 2/sublime_text
+{% highlight bash %}
+cd /usr/bin/
+sudo ln -s ~/downloads/Sublime\ Text\ 2/sublime_text
+{% endhighlight %}
 
 nesse meu exemplo, se eu executar sublime_text no terminal, irá abrir o sublime.
