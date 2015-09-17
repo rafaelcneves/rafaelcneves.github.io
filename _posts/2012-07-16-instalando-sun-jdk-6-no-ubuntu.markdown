@@ -7,7 +7,7 @@ categories: [java]
 ---
 Como primeiro post deste blog, vou passar algo que sempre dá problema quando estou re-instalando minha máquina linux, instalar o java sdk e o plugin para o browser.
 
-Primeiramente faça o download do sun jdk 6 neste (link)[http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html].
+Primeiramente faça o download do sun jdk 6 neste [link](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html).
 
 Após dê permissão de execução ao mesmo:
 
@@ -71,4 +71,4 @@ sudo ln -s /usr/lib/jvm/jdk1.6.0_32/jre/lib/i386/libnpjp2.so /usr/lib/mozilla/pl
 
 Utilizei para este post um outro blog que também mostra como instalar a versão 7 do java.
 
-*<a href="http://www.devsniper.com/ubuntu-12-04-install-sun-jdk-6-7/" target="_blank">Referência</a>*
+*[Referência](http://www.devsniper.com/ubuntu-12-04-install-sun-jdk-6-7/)*
