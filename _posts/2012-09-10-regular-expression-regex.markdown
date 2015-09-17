@@ -11,28 +11,25 @@ Expressões regulares são padrões utilizados para encontrar combinações de c
 
 Em JavaScript, expressões regulares também podem ser tratadas como um objeto. Esses padrões são usados com os métodos exec e test do objeto RegExp, e com os métodos match, replace, search, e split do objeto String.
 
-<strong>Entendendo as Expressões Regulares</strong>
+**Entendendo as Expressões Regulares**
 
 As expressões regulares podem ser criadas de duas formas:
-<ul>
-	<li>Escrevendo uma expressão regular:
-		<span style="color:#0066cc;">seek = /padrao/</span>
-	</li>
-	<li>Criando uma instancia do objeto RegExp:
+*   Escrevendo uma expressão regular:
+	    <span style="color:#0066cc;">seek = /padrao/</span>
+*   Criando uma instancia do objeto RegExp:
 		<span style="color:#0066cc;">seek = new RegExp("padrao");</span>
-	</li>
-</ul>
+
 Regular Expression é um padrão de texto que consiste de simples caracteres (da letra a até z, ou de 1 até 9) e de uma combinação de caracteres simples e especiais.
 
 Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue abaixo uma lista dos grupos e respectivos caracteres especiais.
 
-<strong>Busca posicionada</strong>
+**Busca posicionada**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0033cc;">^</span></td>
@@ -56,12 +53,12 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 	</tr>
 </table>
 
-<strong>Literais</strong>
+**Literais**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">Alfanumerica</span></td>
@@ -112,13 +109,13 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 
 A barra invertida (\\) é também usada quando você deseja encontrar um caractere especial literalmente. Por Exemplo, se você deseja encontrar o símbolo "$" ao invés de ter um sinal no final da string, use a barra invertida: /\\$/
 
-<strong>Classes de Caracteres</strong>
+**Classes de Caracteres**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">[xyz]</span></td>
@@ -172,13 +169,13 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 	</tr>
 </table>
 
-<strong>Repetição</strong>
+**Repetição**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">{x}</span></td>
@@ -201,7 +198,7 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 		<td>/a\s?b/ encontra "ab" ou "a b".</td>
 	</tr>
 	<tr>
-		<td><span style="color:#0066cc;">*</span></td>
+		<td><span style="color:#0066cc;">\*</span></td>
 		<td>Encontra zero ou mais ocorrências. Equivalente a {0,}</td>
 		<td>/we*/ encontra "w" em "why" e "wee" em "between", mas nao em "bad"</td>
 	</tr>
@@ -212,13 +209,13 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 	</tr>
 </table>
 
-<strong>Alternação &amp; Agrupamento</strong>
+**Alternação &amp; Agrupamento**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">( )</span></td>
@@ -232,13 +229,13 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 	</tr>
 </table>
 
-<strong>Backreferences</strong>
+**Backreferences**
 
 <table>
 	<tr>
-		<td><strong>Símbolo</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Símbolo**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td>( )\n</td>
@@ -249,15 +246,15 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 	</tr>
 </table>
 
-<strong>Modificadores de Padrões</strong>
+**Modificadores de Padrões**
 
 Em adição aos caracteres padrões para buscar, você pode usar switches para fazer uma pesquisa global, case- insensitive (ignora minúsculas e maiúsculas) ou ambas.
 
 <table>
 	<tr>
-		<td><strong>Propriedade</strong></td>
-		<td><strong>Descrição</strong></td>
-		<td><strong>Exemplo</strong></td>
+		<td>**Propriedade**</td>
+		<td>**Descrição**</td>
+		<td>**Exemplo**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">i</span></td>
@@ -297,12 +294,12 @@ Em adição aos caracteres padrões para buscar, você pode usar switches para f
 	</tr>
 </table>
 
-<strong>Métodos usados pelas expressões regulares</strong>
+**Métodos usados pelas expressões regulares**
 
 <table>
 	<tr>
-		<td><strong>Método</strong></td>
-		<td><strong>Descrição</strong></td>
+		<td>**Método**</td>
+		<td>**Descrição**</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">exec</span></td>
@@ -332,4 +329,4 @@ Em adição aos caracteres padrões para buscar, você pode usar switches para f
 
 Quando quiser saber se o padrão foi encontrado na string, pode usar o método test ou search. Os métodos exec e match trazem mais informações, porém são mais lentos. Ao usar exec ou match e obter sucesso, será retornado um array e atualizará as propriedades do objeto regular expression associado e também de objetos pré-definidos. Se a pesquisa falir, o método retornará nulo.
 
-*<a href="http://imasters.com.br/artigo/2515/javascript/regular_expression/" target="_blank">Referência</a>*
+*[Referência](http://imasters.com.br/artigo/2515/javascript/regular_expression/){:target="_blank"}*
