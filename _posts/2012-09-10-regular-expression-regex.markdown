@@ -14,6 +14,7 @@ Em JavaScript, expressões regulares também podem ser tratadas como um objeto. 
 **Entendendo as Expressões Regulares**
 
 As expressões regulares podem ser criadas de duas formas:
+
 *   Escrevendo uma expressão regular:
 	    <span style="color:#0066cc;">seek = /padrao/</span>
 *   Criando uma instancia do objeto RegExp:
