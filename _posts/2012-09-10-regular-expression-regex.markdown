@@ -198,7 +198,7 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 		<td>/a\s?b/ encontra "ab" ou "a b".</td>
 	</tr>
 	<tr>
-		<td><span style="color:#0066cc;">\*</span></td>
+		<td><span style="color:#0066cc;">*</span></td>
 		<td>Encontra zero ou mais ocorrências. Equivalente a {0,}</td>
 		<td>/we*/ encontra "w" em "why" e "wee" em "between", mas nao em "bad"</td>
 	</tr>
