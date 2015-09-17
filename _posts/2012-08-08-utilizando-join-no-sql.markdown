@@ -53,4 +53,4 @@ FULL OUTER JOIN B B
 ON A.Key = B.Key
 {% endhighlight %}
 
-*[Post original](http://sqlfromhell.wordpress.com/2009/09/15/trabalhando-com-join/)*
+*[Post original](http://sqlfromhell.wordpress.com/2009/09/15/trabalhando-com-join/){:target="_blank"}*
