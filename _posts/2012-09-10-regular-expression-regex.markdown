@@ -27,9 +27,9 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 
 <table>
 	<tr>
-		<td>__Símbolo__</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0033cc;">^</span></td>
@@ -57,8 +57,8 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
-		<td>**Descrição**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">Alfanumerica</span></td>
@@ -113,9 +113,9 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">[xyz]</span></td>
@@ -173,9 +173,9 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">{x}</span></td>
@@ -213,9 +213,9 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">( )</span></td>
@@ -233,9 +233,9 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Símbolo</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td>( )\n</td>
@@ -252,9 +252,9 @@ Em adição aos caracteres padrões para buscar, você pode usar switches para f
 
 <table>
 	<tr>
-		<td>**Propriedade**</td>
-		<td>**Descrição**</td>
-		<td>**Exemplo**</td>
+		<td>Propriedade</td>
+		<td>Descrição</td>
+		<td>Exemplo</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">i</span></td>
@@ -298,8 +298,8 @@ Em adição aos caracteres padrões para buscar, você pode usar switches para f
 
 <table>
 	<tr>
-		<td>**Método**</td>
-		<td>**Descrição**</td>
+		<td>Método</td>
+		<td>Descrição</td>
 	</tr>
 	<tr>
 		<td><span style="color:#0066cc;">exec</span></td>
