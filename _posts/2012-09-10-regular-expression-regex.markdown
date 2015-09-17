@@ -27,7 +27,7 @@ Os padrões para a pesquisa de caracteres estão divididos em categorias. Segue 
 
 <table>
 	<tr>
-		<td>**Símbolo**</td>
+		<td>__Símbolo__</td>
 		<td>**Descrição**</td>
 		<td>**Exemplo**</td>
 	</tr>
