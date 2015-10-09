@@ -13,13 +13,12 @@ INNER JOIN
 
 Este é simples, o mais entendível e o mais comum. Esta consulta retornará todos os registros da tabela esquerda (tabela A) que têm correspondência com a tabela direita (tabela B). Podemos escrever este JOIN da seguinte forma:
 
-```sql
-novo novo
+{% highlight sql %}
 SELECT *
 FROM A
 INNER JOIN B
 ON A.Key = B.Key
-```
+{% endhighlight %}
 
 LEFT JOIN
 
