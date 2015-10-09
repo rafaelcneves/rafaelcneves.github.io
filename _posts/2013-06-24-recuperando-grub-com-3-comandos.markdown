@@ -13,22 +13,16 @@ Para recuperá-lo você vai precisar de um CD-Live do linux, inicialize-o, assim
 
 Verificando a partição referente ao seu GNU/LINUX
 
-```shell
-sudo fdisk -l
-```
+    sudo fdisk -l
 
 Vamos montar o seu sistema de arquivos na sua partição GNU/Linux no diretório /mnt
 
-```bash
-sudo mount -t ext4 /dev/sda6 /mnt
-```
+    sudo mount -t ext4 /dev/sda6 /mnt
 
 Neste caso o meu sistema de arquivos é EXT4 e a minha partição Linux é a sda6, troque esses campos conforme a sua configuração.
 
 Instalação do Grub
 
-```bash
-sudo grub-install --root-directory=/mnt /dev/sda
-```
+    sudo grub-install --root-directory=/mnt /dev/sda
 
 *<a href="http://www.vivaolinux.com.br/dica/Como-recuperar-o-GRUB-em-3-comandos-Esse-funciona/" target="_blank">Referência</a>*
