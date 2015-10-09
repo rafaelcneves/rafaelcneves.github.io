@@ -13,7 +13,9 @@ Para recuperá-lo você vai precisar de um CD-Live do linux, inicialize-o, assim
 
 Verificando a partição referente ao seu GNU/LINUX
 
-    sudo fdisk -l
+``` bash
+sudo fdisk -l
+```
 
 Vamos montar o seu sistema de arquivos na sua partição GNU/Linux no diretório /mnt
 
