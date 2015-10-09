@@ -13,7 +13,7 @@ Para recuperá-lo você vai precisar de um CD-Live do linux, inicialize-o, assim
 
 Verificando a partição referente ao seu GNU/LINUX
 
-``` bash
+``` shell
 sudo fdisk -l
 ```
 
