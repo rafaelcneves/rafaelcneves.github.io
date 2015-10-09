@@ -13,13 +13,13 @@ Para recuperá-lo você vai precisar de um CD-Live do linux, inicialize-o, assim
 
 Verificando a partição referente ao seu GNU/LINUX
 
-``` shell
+```shell
 sudo fdisk -l
 ```
 
 Vamos montar o seu sistema de arquivos na sua partição GNU/Linux no diretório /mnt
 
-``` bash
+```bash
 sudo mount -t ext4 /dev/sda6 /mnt
 ```
 
@@ -27,7 +27,7 @@ Neste caso o meu sistema de arquivos é EXT4 e a minha partição Linux é a sda
 
 Instalação do Grub
 
-``` bash
+```bash
 sudo grub-install --root-directory=/mnt /dev/sda
 ```
 
