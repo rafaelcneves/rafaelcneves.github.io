@@ -239,7 +239,7 @@ A barra invertida (\\) é também usada quando você deseja encontrar um caracte
 		<td>Exemplo</td>
 	</tr>
 	<tr>
-		<td>( )\n</td>
+		<td><span style="color:#0066cc;">( )\n</span></td>
 		<td>Encontra uma cláusula entre parênteses. n é o número de cláusulas para a esquerda da backreference</td>
 		<td>
 			(\w+)\s+\1 encontra quaisquer palavras que ocorra duas vezes na mesma linha, como "hubba hubba." O \1 denota que a primeria palavra depois do espaço deve encontrar a porção da string que foi encontrada no último commando dentro de parênteses. Se existisse mais de um comando dentro de parênteses, você deve usar \2 ou \3 para encontrar o apropriado agrupamento da esquerda da backreference. Até 9 backreferences podem ser usadas no padrão da string
