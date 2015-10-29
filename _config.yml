@@ -2,7 +2,7 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 title: neves blog
-url: "http://blog.nevesbox.com/"
+url: "http://blog.nevesbox.com"
 author:
   name: "Rafael César Neves"
   email: "rafael.ceesar@gmail.com"
