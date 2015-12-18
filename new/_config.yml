@@ -1,0 +1,11 @@
+title: neves blog
+description: "&lt;no&dash;description&#47;&gt;"
+email: rafael.ceesar@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.nevesbox.com" # the base hostname & protocol for your site
+paginate: 5
+tagline:
+
+excerpt_separator: ""
+# pygments: true
+markdown: kramdown
