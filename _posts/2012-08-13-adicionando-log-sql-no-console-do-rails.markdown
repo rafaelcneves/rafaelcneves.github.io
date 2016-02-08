@@ -1,6 +1,7 @@
 ---
 published: true
 title: Adicionando log sql no console do rails
+description: Como adicionar log do sql no console do rails
 layout: post
 tags: [log, rails, ruby, sql]
 categories: [rubyonrails]

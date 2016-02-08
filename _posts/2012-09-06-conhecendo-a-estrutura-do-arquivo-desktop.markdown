@@ -1,6 +1,7 @@
 ---
 published: true
 title: Conhecendo a estrutura do arquivo .desktop
+description: Saiba como é organizado as tags de um arquivo .desktop
 layout: post
 tags: [linux]
 categories: [linux]

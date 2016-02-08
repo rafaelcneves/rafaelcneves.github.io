@@ -1,7 +1,7 @@
 ---
 published: true
 title: Instalando sun jdk 6 no ubuntu
-description: Instalando sun jdk 6 no ubuntu linux
+description: Como instalar sun jdk 6 no ubuntu/linux
 layout: post
 tags: [java, linux, ubuntu]
 categories: [java]

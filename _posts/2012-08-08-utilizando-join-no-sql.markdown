@@ -1,6 +1,7 @@
 ---
 published: true
 title: Utilizando JOIN no SQL
+description: Utilizandoos famosos JOIN no SQL
 layout: post
 tags: [join, sql]
 categories: [sql]

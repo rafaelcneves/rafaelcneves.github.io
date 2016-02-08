@@ -1,6 +1,7 @@
 ---
 published: false
 title: Programando Expressões Regulares
+description: Exemplificando expressões regulares/regular expression/regex
 layout: post
 tags: [javascript, regex]
 categories: [javascript]
