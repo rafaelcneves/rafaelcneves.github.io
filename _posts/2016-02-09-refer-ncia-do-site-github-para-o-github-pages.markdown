@@ -1,6 +1,6 @@
 ---
 published: false
-title: Referência do site.github para o Github - Pages
+title: Referência do site github para o Github Pages
 layout: post
 ---
 https://help.github.com/articles/repository-metadata-on-github-pages/
