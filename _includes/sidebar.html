@@ -26,13 +26,11 @@
         {% endif %}
       {% endfor %}
       {% for node in site.github.public_repositories %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
+        <!-- {% if node.name != null %} -->
+          <li class="sidebar-nav-item">
+            <a href="{{ node.url }}" target="_blank">{{ node.name }}</a>
+          </li>
+        <!-- {% endif %} -->
       {% endfor %}
 
       <!--<li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>-->
