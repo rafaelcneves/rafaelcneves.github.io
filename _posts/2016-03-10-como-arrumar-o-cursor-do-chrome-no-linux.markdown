@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Como arrumar o cursor do Chrome no Linux
 layout: post
 ---
