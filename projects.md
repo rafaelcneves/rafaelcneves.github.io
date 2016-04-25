@@ -3,12 +3,14 @@ layout: page
 title: Projetos
 ---
 
-<div>
+<p>
   <a href="{{ site.github.owner_url }}">Página no GitHub</a>
-</div>
+</p>
 
-{% for node in site.github.public_repositories %}
-  <li class="sidebar-nav-item">
-    <a href="{{ node.url }}" target="_blank">{{ node.name }}</a>
-  </li>
-{% endfor %}
+<p>
+  {% for node in site.github.public_repositories %}
+    <li class="sidebar-nav-item">
+      <a href="{{ node.url }}" target="_blank">{{ node.name }}</a>
+    </li>
+  {% endfor %}
+</p>
