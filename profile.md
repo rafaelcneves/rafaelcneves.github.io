@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: Rafael César Neves
 ---
 
