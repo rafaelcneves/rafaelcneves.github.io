@@ -4,6 +4,7 @@ title: Segredos do Chrome DevTools
 layout: post
 tags: [chrome, devtools]
 categories: [chrome]
+comments: true
 ---
 Segue uma playlist de videos no youtube contendo dez videos mostrando algumas features muito interessantes do Chrome DevTools.
 

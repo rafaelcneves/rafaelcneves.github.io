@@ -4,6 +4,7 @@ title: Recuperando GRUB com 3 comandos
 layout: post
 tags: [grub, linux]
 categories: [linux]
+comments: true
 ---
 Um dos acontecimentos mais frequentes com os usuários de dual boot é a perca do Grub. Isso geralmente acontece quando você resolve formatar seu Windows, que ao ser reinstalado apaga seu querido Grub.
 

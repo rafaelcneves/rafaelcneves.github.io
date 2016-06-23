@@ -1,11 +1,55 @@
-excerpt_separator: ""
-highlighter: rouge
+# Build settings
+permalink: /blog/:year/:title/
 markdown: kramdown
-title: Neves Blog
-url: "http://rafaelcneves.github.io/"
+highlighter: pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: Rafael César Neves
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+# tagline: Conteúdo para desenvolvedores
+url: http://rafaelcneves.github.io
+baseurl: ""
+# baseurl: "/end2end"
+
+# google_analytics: UA-52446115-1
+# repo: http://github.com/rafaelcneves/rafaelcneves.github.io
+disqus_shortname: "nevesblog"
+disqus_site_shortname: "nevesblog"
+
+# Author settings
 author:
-  name: "Rafael César Neves"
-  email: "rafael.ceesar@gmail.com"
-tagline: Conteúdo para desenvolvedores
-description: "&lt;no&dash;description&#47;&gt;"
-paginate: 5
+  name      : Rafael César Neves
+  job       : Full Stack Developer
+  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb     : /images/author.jpg
+  email     : rneves@rocketmail.com
+  url       : http://rafaelcneves.github.io
+  github    : http://github.com/rafaelcneves
+  twitter   : http://twitter.com/rafaelcneves
+  facebook  : http://facebook.com/rafael.c.neves
+  linkedin  : http://linkedin.com/in/rafaelcneves
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

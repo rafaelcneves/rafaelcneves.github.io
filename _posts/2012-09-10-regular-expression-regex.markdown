@@ -5,6 +5,7 @@ description: Documentação simplificada para Expressões Regulares/Regular Expr
 layout: post
 tags: [javascript, regex]
 categories: [javascript]
+comments: true
 ---
 Desta vez estou deixando aqui um assunto que as vezes sinto muita falta: as queridas expressões regulares. Muito utilizadas para validação de dados na web. Irei mostrar aqui como utilizar no Javascript.
 

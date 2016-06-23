@@ -5,6 +5,7 @@ description: Exemplificando expressões regulares/regular expression/regex
 layout: post
 tags: [javascript, regex]
 categories: [javascript]
+comments: true
 ---
 A partir do momento que sabemos quais caracteres desejamos, devemos partir para a criação do padrão que sera utilizado para pesquisar a String.
 

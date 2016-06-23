@@ -4,6 +4,7 @@ title: The Noun Project
 layout: post
 tags: [design, icones]
 categories: [design]
+comments: true
 ---
 Este é o meu favorito. Já trás uma enorme quantidade de ícones, bonitos por sinal, e todos em svg. Infelizmente, para a tristeza de muitos, não possui nenhum tipo de formato em bitmap, ou seja, se precisar de um, vai ter que converter por conta própria.
 

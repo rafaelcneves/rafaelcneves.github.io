@@ -4,6 +4,7 @@ title: Instalando ruby on rails
 layout: post
 tags: [linux, rails, ruby]
 categories: [rubyonrails]
+comments: true
 ---
 Uma pergunta que sempre me fazem, principalmente na faculdade, é "como instalo ruby on rails na minha máquina?". Então resolvi fazer um post sobre isso.
 
@@ -35,7 +36,7 @@ após isso, já estando com o ruby instalado, certamente você já poderá utili
 este comando já instalará a ultima versão, 3.2.12, versão atual na data deste post.
 nesse momento já devemos ser capazes de criar uma aplicação rails com o seguinte comando dentro da pasta que você desejar manter seu projeto
 
-    $ rails new 
+    $ rails new
 
 e para poder acessar essa aplicação iremos precisar de um servidor http rodando na maquina, para isso recomendo uma gem, que ela serve tanto como plugin para um servidor já instalado manualmente, ou pode fazê-lo baixar o nginx, e configurá-lo corretamente para você somente utilizar, muito recomendado para você desenvolvedor que precisa executar a aplicação localmente, afins de teste.
 e podemos instalá-la através do comando:

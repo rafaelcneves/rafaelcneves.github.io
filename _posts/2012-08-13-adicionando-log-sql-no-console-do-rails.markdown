@@ -5,6 +5,7 @@ description: Como adicionar log do sql no console do rails
 layout: post
 tags: [log, rails, ruby, sql]
 categories: [rubyonrails]
+comments: true
 ---
 Bom, já passei algumas vezes pela necessidade de ter que acrescentar um comando no console do rails para verificar tempo das consultas e coisas do gênero. Então dessa vez corri atrás de uma opção que não tivesse que colocar todas as vezes. Encontrei esta opção.
 

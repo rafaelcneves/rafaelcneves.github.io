@@ -2,6 +2,7 @@
 published: false
 title: Compilando arquivos PO para MO
 layout: post
+comments: true
 ---
 msgfmt -o lang.mo lang.po
 

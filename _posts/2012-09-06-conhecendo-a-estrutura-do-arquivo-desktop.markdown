@@ -5,6 +5,7 @@ description: Saiba como é organizado as tags de um arquivo .desktop
 layout: post
 tags: [linux]
 categories: [linux]
+comments: true
 ---
 No [post anterior](/linux/2012/09/05/adicionando-aplicativos-ao-linux.html "Adicionando aplicativos ao Linux") eu comentei algo sobre os arquivos .desktop no linux. Então resolvi deixar aqui uma breve explicação sobre esse tipo de arquivo.
 

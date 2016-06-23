@@ -5,6 +5,7 @@ description: Como instalar sun jdk 6 no ubuntu/linux
 layout: post
 tags: [java, linux, ubuntu]
 categories: [java]
+comments: true
 ---
 Como primeiro post deste blog, vou passar algo que sempre dá problema quando estou re-instalando minha máquina linux, instalar o java sdk e o plugin para o browser.
 

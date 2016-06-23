@@ -5,6 +5,7 @@ description: O que é, e como trabalhar com Metaprogramação/Metaprogramming no
 layout: post
 tags: [ruby, ebook, metaprogramacao]
 categories: [ruby]
+comments: true
 ---
 Um tempo atrás me passaram o link de um e-book sobre metaprogramação, achei muito interessante e estou postando aqui, estou até copiando o texto porque achei muito bom.
 

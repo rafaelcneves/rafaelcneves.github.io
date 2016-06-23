@@ -2,6 +2,7 @@
 published: false
 title: Referência do site github para o Github Pages
 layout: post
+comments: true
 ---
 https://help.github.com/articles/repository-metadata-on-github-pages/
 

@@ -4,6 +4,7 @@ title: Glyphicons
 layout: post
 tags: [design, icones]
 categories: [design]
+comments: true
 ---
 Glyphicons é um pacote com 420 ícones bem interessantes e completo. É possível baixar o pacote completo totalmente free. E caso necessite os vetores, você pode pagar uma quantia para tê-los. São ícones bons, se você tem problemas para criar, vale a pena dar uma conferida. A imagem a baixo mostra alguns deles.
 

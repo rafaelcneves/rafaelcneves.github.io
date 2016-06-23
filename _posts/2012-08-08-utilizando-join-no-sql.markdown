@@ -5,6 +5,7 @@ description: Utilizandoos famosos JOIN no SQL
 layout: post
 tags: [join, sql]
 categories: [sql]
+comments: true
 ---
 Bom sempre tive bastante dificuldade para entender as diferenças entre os joins no sql.
 

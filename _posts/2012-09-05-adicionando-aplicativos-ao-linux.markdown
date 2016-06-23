@@ -5,6 +5,7 @@ description: Como adicionar aplicativos no linux/ubuntu com atalhos no menu de a
 layout: post
 tags: [linux, ubuntu]
 categories: [linux]
+comments: true
 ---
 O objetivo deste post vai ser aquelas ocasiões onde você baixa um pacote e não tem o instalador dele. Como por exemplo o firefox, que você vai no site, baixa, descompacta e executa, ele não fica como uma aplicação que você consegue executar através de comando no terminal, ou encontrar na busca do dash do ubuntu.
 
