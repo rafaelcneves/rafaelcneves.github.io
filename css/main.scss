@@ -4,3 +4,11 @@
 
 @charset "utf-8";
 @import "main";
+
+ul.skills {
+  text-align: center;
+
+  li {
+    display: inline-block;
+  }
+}
