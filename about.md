@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<ul>
-  {% for item in site.author.knowledge %}
-    <li><a class="btn btn-ghost">{{item}}</a></li>
+<ul style="display: inline-block;">
+  {% for item in site.author.skills %}
+    <li style="float: left"><a class="btn btn-ghost">{{item}}</a></li>
   {% endfor %}
 </ul>
