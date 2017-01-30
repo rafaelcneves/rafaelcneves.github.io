@@ -74,3 +74,8 @@ sudo ln -s /usr/lib/jvm/jdk1.6.0_32/jre/lib/i386/libnpjp2.so /usr/lib/mozilla/pl
 Utilizei para este post um outro blog que também mostra como instalar a versão 7 do java.
 
 *[Referência](http://www.devsniper.com/ubuntu-12-04-install-sun-jdk-6-7/){:target="_blank"}*
+
+
+
+
+<script src="https://gist.github.com/rafaelcneves/6bede064371929c59360.js"></script>
