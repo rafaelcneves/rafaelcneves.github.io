@@ -78,4 +78,4 @@ Utilizei para este post um outro blog que também mostra como instalar a versão
 
 
 
-<script src="https://gist.github.com/rafaelcneves/6bede064371929c59360.js"></script>
+{% gist 0311d5b2d096c55c00db %}
