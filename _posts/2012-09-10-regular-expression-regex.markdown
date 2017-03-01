@@ -122,7 +122,7 @@ NOTA: O circunflexo usado dentro da classe de caractere é diferente do que deno
 
 ### .
 
-`.` Encontra qualquer caractere exceto o caractere de nova linha ou terminador de linha Unicode.
+Encontra qualquer caractere exceto o caractere de nova linha ou terminador de linha Unicode.
 
 `/b.t/` encontra "bat", "bit", "bet" e assim por diante.
 
