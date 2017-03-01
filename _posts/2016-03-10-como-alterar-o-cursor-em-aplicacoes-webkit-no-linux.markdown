@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Como alterar o cursor em aplicações Webkit no Linux
 description:
 layout: post
