@@ -15,7 +15,7 @@ Vou utilizar para exemplo o sublime text 2, ide que utilizo aqui. E fiz o mesmo 
 
 Crie o arquivo sublime.desktop na pasta /usr/share/applications, ou se preferir não utilizar sudo pode fazer o mesmo na pasta ~/.local/share/applications e edite-o com o seguinte conteúdo:
 
-{% highlight bash %}
+{% highlight shell %}
 [Desktop Entry]
 Version=1.0
 Name=Sublime
@@ -31,7 +31,7 @@ Dessa forma, seu aplicativo já estará aparecendo no menu, e caso necessário v
 
 Mas se você é daquele que tem o costume de executar aplicativos pelo terminal, você pode adicionar um link simbólico para o executável no bin:
 
-{% highlight bash %}
+{% highlight shell %}
 cd /usr/bin/
 sudo ln -s ~/downloads/Sublime\ Text\ 2/sublime_text
 {% endhighlight %}

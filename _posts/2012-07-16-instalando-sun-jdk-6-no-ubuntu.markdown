@@ -13,25 +13,25 @@ Primeiramente faça o download do sun jdk 6 neste [link](http://www.oracle.com/t
 
 Após dê permissão de execução ao mesmo:
 
-{% highlight bash %}
+{% highlight shell %}
 chmod +x jdk-6u32-linux-x64.bin
 {% endhighlight %}
 
 Execute o binário:
 
-{% highlight bash %}
+{% highlight shell %}
 ./jdk-6u32-linux-x64.bin
 {% endhighlight %}
 
 Mova a pasta gerada para a seguinte pasta:
 
-{% highlight bash %}
+{% highlight shell %}
 sudo mv jdk1.6.0_32 /usr/lib/jvm/
 {% endhighlight %}
 
 Instalando o novo source do java no sistema:
 
-{% highlight bash %}
+{% highlight shell %}
 sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.6.0_32/bin/javac 1
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.6.0_32/bin/java 1
 sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_32/bin/javaws 1
@@ -39,7 +39,7 @@ sudo update-alternatives --install /usr/bin/javaws javaws /usr/lib/jvm/jdk1.6.0_
 
 Atribuindo o java default:
 
-{% highlight bash %}
+{% highlight shell %}
 sudo update-alternatives --config javac
 sudo update-alternatives --config java
 sudo update-alternatives --config javaws
@@ -47,13 +47,13 @@ sudo update-alternatives --config javaws
 
 Versão do java (teste):
 
-{% highlight bash %}
+{% highlight shell %}
 java -version
 {% endhighlight %}
 
 Verifique se os links do sistema apontam para o local correto:
 
-{% highlight bash %}
+{% highlight shell %}
 ls -la /etc/alternatives/java*
 {% endhighlight %}
 
@@ -61,13 +61,13 @@ Instalando o plugin do java no Mozilla Firefox (possivelmente para o Chrome):
 
 64-Bit jdk
 
-{% highlight bash %}
+{% highlight shell %}
 sudo ln -s /usr/lib/jvm/jdk1.6.0_32/jre/lib/amd64/libnpjp2.so /usr/lib/mozilla/plugins
 {% endhighlight %}
 
 32-Bit jdk
 
-{% highlight bash %}
+{% highlight shell %}
 sudo ln -s /usr/lib/jvm/jdk1.6.0_32/jre/lib/i386/libnpjp2.so /usr/lib/mozilla/plugins
 {% endhighlight %}
 
