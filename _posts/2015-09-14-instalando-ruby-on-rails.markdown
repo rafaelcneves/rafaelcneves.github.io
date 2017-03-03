@@ -23,7 +23,7 @@ tente executar para ver se funcionou:
 rvm --version
 {% endhighlight %}
 
-caso não funcione, é possível que você precise de mais algo, normalmente para trabalhar com o gnome-terminal é necessário alterar uma configuração, tudo isso se encontra presente no site do <a href="https://rvm.io//" target="_blank">rvm</a>
+caso não funcione, é possível que você precise de mais algo, normalmente para trabalhar com o gnome-terminal é necessário alterar uma configuração, tudo isso se encontra presente no site do [rvm](https://rvm.io/){:target="_blank"}.
 
 após estar com o rvm funcionando, rode o seguinte comando para instalar o ruby, neste caso a versão 1.9.2, versão atual na data deste post:
 

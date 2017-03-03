@@ -7,7 +7,7 @@ tags: [linux]
 categories: [linux]
 comments: true
 ---
-No [post anterior](/linux/2012/09/05/adicionando-aplicativos-ao-linux.html "Adicionando aplicativos ao Linux") eu comentei algo sobre os arquivos .desktop no linux. Então resolvi deixar aqui uma breve explicação sobre esse tipo de arquivo.
+No [post anterior]({{ site.baseurl }}{% post_url 2012-09-05-adicionando-aplicativos-ao-linux %} "Adicionando aplicativos ao Linux") eu comentei algo sobre os arquivos .desktop no linux. Então resolvi deixar aqui uma breve explicação sobre esse tipo de arquivo.
 
 O arquivo .desktop é semelhante ao arquivo de atalho .lnk do windows. Esse arquivo segue um padrão definido pela freedesktop.org que é utilizado tanto pelo Gnome quanto pelo KDE. Eles ficam dentro da pasta /usr/share/applications ou na pasta ~/.local/share/applications. Nesses arquivos é que estão contidas as configurações e características do atalho.
 
