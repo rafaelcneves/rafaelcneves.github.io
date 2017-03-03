@@ -1,7 +1,7 @@
 ---
 published: true
 title: Regular Expression (RegEx)
-description: Documentação simplificada para Expressões Regulares/Regular Expression/RegEx
+excerpt: Documentação simplificada para Expressões Regulares/Regular Expression/RegEx
 layout: post
 tags: [javascript, regex]
 categories: [javascript]

@@ -1,7 +1,7 @@
 ---
 published: true
 title: Como alterar o cursor em aplicações Webkit no Linux
-description:
+excerpt: Como alterar o cursor em aplicações Webkit no Linux
 layout: post
 tags: [chrome, cursor-theme, linux, webkit]
 categories: [linux]

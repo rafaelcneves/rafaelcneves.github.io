@@ -1,7 +1,7 @@
 ---
 published: true
 title: Ruby Metaprogramming
-description: O que é, e como trabalhar com Metaprogramação/Metaprogramming no Ruby
+excerpt: O que é, e como trabalhar com Metaprogramação/Metaprogramming no Ruby
 layout: post
 tags: [ruby, ebook, metaprogramacao]
 categories: [ruby]

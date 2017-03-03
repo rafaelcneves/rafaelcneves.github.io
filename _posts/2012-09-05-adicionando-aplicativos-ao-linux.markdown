@@ -1,7 +1,7 @@
 ---
 published: true
 title: Adicionando aplicativos ao Linux
-description: Como adicionar aplicativos no linux/ubuntu com atalhos no menu de aplicativos
+excerpt: Como adicionar aplicativos no linux/ubuntu com atalhos no menu de aplicativos
 layout: post
 tags: [linux, ubuntu]
 categories: [linux]

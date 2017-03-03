@@ -1,7 +1,7 @@
 ---
 published: true
 title: Palestras do FISL
-description: Palestras do FISL disponíveis na internet para assistir gratuitamente
+excerpt: Palestras do FISL disponíveis na internet para assistir gratuitamente
 layout: post
 tags: [palestras, software-livre]
 categories: [palestras]
