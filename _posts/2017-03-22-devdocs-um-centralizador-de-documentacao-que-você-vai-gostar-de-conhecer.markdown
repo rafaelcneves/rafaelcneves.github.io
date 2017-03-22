@@ -11,6 +11,8 @@ Há um bom tempo tenho este cara nos meus favoritos, com certeza é um dos proje
 
 DevDocs é um centralizador de documentações opensource que você pode até baixar as documentações para ter acesso _offline_, ou por ser opensource, você consegue incluir a documentação de seu interesse nele, ou até fazer uma solicitação para eles incluirem.
 
+> DevDocs combines multiple API documentations in a fast, organized, and searchable interface.
+
 Vale a pena dar uma conferida.
 
 [DevDocs](http://devdocs.io/){:target="_blank"}
