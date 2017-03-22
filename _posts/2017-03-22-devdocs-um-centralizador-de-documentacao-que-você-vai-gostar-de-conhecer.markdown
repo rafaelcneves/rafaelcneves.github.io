@@ -13,4 +13,4 @@ DevDocs é um centralizador de documentações opensource que você pode até ba
 
 Vale a pena dar uma conferida.
 
-[DevDocs](http://devdocs.io/)
+[DevDocs](http://devdocs.io/){:target="_blank"}
