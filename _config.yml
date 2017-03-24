@@ -19,11 +19,11 @@ title: Rafael César Neves
 description: "Rails enthusiast, with a lot of ideas, always looking for the best challenges and good coffee."
 keywords: "Linux, Ruby, Rails, Mysql, Java, web, developer"
 tagline: Conteúdo para desenvolvedores
-url: http://rafaelcneves.github.io
-baseurl: http://rafaelcneves.github.io
+url: https://rafaelcneves.github.io
+baseurl: https://rafaelcneves.github.io
 
 google_analytics: UA-69286309-1
-repo: http://github.com/rafaelcneves/rafaelcneves.github.io
+repo: https://github.com/rafaelcneves/rafaelcneves.github.io
 disqus_shortname: "nevesblog"
 disqus_site_shortname: "nevesblog"
 
@@ -35,7 +35,7 @@ author:
   full_bio: "Graduado em Tecnologia em Análise e Desenvolvimento de Sistemas na UDESC, formado pelo SENAI no curso Técnico em Informática, atualmente trabalhando com desenvolvimento web em PHP. Mas possui experiência com desenvolvimento nas linguagens Ruby, C# e de forma breve em desenvolvimento para Android. Atuando em diversas ocasiões com bancos de dados relacionais e não relacionais, principalmente MySQL e PostgreSQL. Já trabalhou com tecnologias de front-end como Angular e Bootstrap. Possuindo também conhecimento em desenvolvimento mobile para Android."
   thumb: /images/author.jpg
   email: rneves@rocketmail.com
-  url: http://rafaelcneves.github.io
+  url: https://rafaelcneves.github.io
   github: http://github.com/rafaelcneves
   twitter: http://twitter.com/rafaelcneves
   facebook: http://facebook.com/rafael.c.neves
