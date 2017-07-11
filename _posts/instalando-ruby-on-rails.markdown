@@ -2,7 +2,7 @@
 published: false
 title: Instalando ruby on rails
 layout: post
-tags: [linux, rails, ruby]
+tags: [linux, rails, ruby, rvm]
 categories: [rubyonrails]
 comments: true
 ---
