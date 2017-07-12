@@ -23,17 +23,17 @@ A boa notícia é que você pode seguir essa *cheat sheet* sempre que for trabal
 
 ## Não use
 
-```ruby
+{% highlight ruby %}
 Time.now # => Retorna o horário do sistema e ignora a time zone do projeto.
 Time.parse("2012-03-02 16:05:37") # => Irá assumir que a string recebida tá na time zone do sistema.
 Time.strptime(time_string, '%Y-%m-%dT%H:%M:%S%z') # Mesmo problema do Time.parse.
 Date.today # Pode ser ontem ou amanhã de acordo com a time zona setada na máquina.
 Date.today.to_time # => # Também não segue a time zone do projeto.
-```
+{% endhighlight %}
 
 ## Use
 
-```ruby
+{% highlight ruby %}
 2.hours.ago # => Fri, 02 Mar 2012 20:04:47 UTC -03:00
 1.day.from_now # => Fri, 03 Mar 2012 22:04:47 UTC -03:00
 Date.today.to_time_in_current_zone # => Fri, 02 Mar 2012 22:04:47 UTC -03:00
@@ -44,6 +44,6 @@ Time.current # Mesma coisa, só que de forma mais curta.
 Time.zone.today # Se você não pode usar Time ou DateTime.
 Time.zone.now.utc.iso8601 # Quando for trabalhar com APIs.
 Time.strptime(time_string, '%Y-%m-%dT%H:%M:%S%z').in_time_zone(Time.zone) # Se não pode usar Time.pars
-```
+{% endhighlight %}
 
 *[Referência](https://helabs.com/artigos/2013/06/11/evitando-problemas-com-datas-e-time-zones-no-rails/){:target="_blank"}*
