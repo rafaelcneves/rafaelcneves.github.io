@@ -77,5 +77,7 @@ navbar:
     title: About
   - slug: blog
     title: Blog
+  - slug: links
+    title: Links
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
