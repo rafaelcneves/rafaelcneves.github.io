@@ -2,7 +2,7 @@
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 # , jekyll-admin
 
 paginate: 3
