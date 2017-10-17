@@ -1,6 +1,6 @@
-Short description of what this resolves :
+Short description of what this resolves:
 
-Changes prosed in this pull request :
+Changes prosed in this pull request:
 
 -
 -
