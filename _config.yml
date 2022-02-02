@@ -1,12 +1,12 @@
 # Build settings
-permalink: /blog/:year/:title/
+permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 # , jekyll-admin
 
-paginate: 3
-paginate_path: "/blog/page/:num/"
+paginate: 12
+paginate_path: "/page/:num/"
 comments: true
 
 # source: source
@@ -22,7 +22,6 @@ keywords: "Linux, Ruby, Rails, Mysql, Java, web, developer"
 tagline: Conteúdo para desenvolvedores
 url: https://rafaelcneves.github.io
 
-google_analytics: UA-69286309-1
 repo: https://github.com/rafaelcneves/rafaelcneves.github.io
 disqus_shortname: "nevesblog"
 disqus_site_shortname: "nevesblog"
@@ -31,53 +30,19 @@ disqus_site_shortname: "nevesblog"
 author:
   name: Rafael César Neves
   job: Full Stack Developer
-  short_bio: "Rails enthusiast, with a lot of ideas, always looking for the best challenges and good coffee."
-  full_bio: "Graduado em Tecnologia em Análise e Desenvolvimento de Sistemas na UDESC, formado pelo SENAI no curso Técnico em Informática, atualmente trabalhando com desenvolvimento web em PHP. Mas possui experiência com desenvolvimento nas linguagens Ruby, C# e de forma breve em desenvolvimento para Android. Atuando em diversas ocasiões com bancos de dados relacionais e não relacionais, principalmente MySQL e PostgreSQL. Já trabalhou com tecnologias de front-end como Angular e Bootstrap. Possuindo também conhecimento em desenvolvimento mobile para Android."
+  presentation: "Sou <strong>Rafael Neves</strong>, <em>desenvolvedor fullstack</em>."
+  short_bio: "Entusiasta de Rails e Flutter, evoluindo constantemente, sempre buscando os melhores desafios e um bom café."
   thumb: /images/author.jpg
-  email: rneves@rocketmail.com
+  email: rafaelcesarneves@gmail.com
   url: http://rafaelcneves.github.io
   github: http://github.com/rafaelcneves
   twitter: http://twitter.com/rafaelcneves
   facebook: http://facebook.com/rafael.c.neves
   linkedin: http://linkedin.com/in/rafaelcneves
   stackoverflow: http://stackoverflow.com/users/2116875/rneves
-  skills:
-    - Ruby on Rails
-    - MySQL
-    - PHP
-    - HTML
-    - CSS
-    - JavaScript
-    - jQuery
-    - AngularJS
-    - PostgreSQL
-    - Web Development
-    - Ruby
-    - Linux
-    - HAML
-    - SASS
-    - CoffeeScript
-    - MongoDB
-    - Scrum
-    - Git
-    - Laravel
-    - C#
-    - Microsoft .NET
-    - Microsoft Visual Studio
-    - SQLite
-    - XML
-    - JSON
-    - C++
-    - UML
-    - Java
-    - SQL
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
-  - slug: blog
-    title: Blog
   - slug: links
     title: Links
 

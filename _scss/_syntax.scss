@@ -1,5 +1,16 @@
+code {
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0 5px;
+  background-color: #ededed;
+}
+
 .highlight {
-  @extend %clearfix;
+  // @extend %clearfix;
   padding: 0;
   margin: {
     top: 1.2em;

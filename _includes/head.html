@@ -15,7 +15,87 @@
     <meta name="msapplication-config" content="{{ "/images/favicon/browserconfig.xml" | prepend: site.baseurl }}">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <style type="text/tailwindcss">
+      @layer utilities {
+        a {
+          color: #337ab7;
+          text-decoration: none;
+          -webkit-transition: color .2s ease;
+          -moz-transition: color .2s ease;
+          transition: color .2s ease;
+        }
+
+        hr {
+          margin: 1.5em 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Open Sans","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+          font-size: 1em;
+          line-height: 1.2;
+          font-weight: 700;
+          margin: 0 0 0.75em;
+        }
+
+        h1 {
+          font-size: 2em;
+          margin: 0.67em 0;
+        }
+
+        h2 {
+          font-size: 1.5em;
+          margin: 0.83em 0;
+        }
+
+        h3 {
+          font-size: 1.17em;
+          margin: 1em 0;
+        }
+
+        h4 {
+          font-size: 1em;
+          margin: 1.33em 0;
+        }
+
+        h5 {
+          font-size: 0.83em;
+          margin: 1.67em 0;
+        }
+
+        h6 {
+          font-size: 0.67em;
+          margin: 2.33em 0;
+        }
+
+        p {
+          margin: 0 0 0.75em;
+        }
+
+        blockquote {
+          background: #f9f9f9;
+          border-left: 10px solid #ccc;
+          margin: 1.5em 10px;
+          padding: 0.5em 10px;
+          quotes: "“" "”" "‘" "’";
+        }
+
+        blockquote:before {
+          color: #ccc;
+          content: open-quote;
+          font-size: 4em;
+          line-height: 0.1em;
+          margin-right: 0.25em;
+          vertical-align: -0.4em;
+        }
+
+        blockquote p {
+          display: inline;
+        }
+      }
+    </style>
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   </head>

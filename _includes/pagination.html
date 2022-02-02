@@ -1,20 +1,21 @@
 {% if paginator.total_pages > 1 %}
 <nav class="pagination" role="pagination">
   <ul>
-    {% assign url = site.baseurl | append: "/blog/" %}
+    {% assign button_class = "font-semibold px-4 py-2 rounded-lg w-full sm:w-auto dark:bg-sky-500" %}
+    {% assign url = site.baseurl | append: "/" %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page > 1 %}
         {% assign prev = 'page/' | append: paginator.previous_page %}
       {% endif %}
-      <li><a class="prev btn btn-ghost" href="{{ url | append: prev }}" title="Articles new">&laquo; Prev</a></li>
+      <li><a class="prev {{button_class}} text-white bg-slate-400 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" href="{{ url | append: prev }}" title="Articles new">&laquo; Prev</a></li>
     {% else %}
-      <li><span class="prev btn btn-ghost disabled">&laquo; Prev</span></li>
+      <li><span class="prev {{button_class}} bg-slate-100">&laquo; Prev</span></li>
     {% endif %}
     <li><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></li>
     {% if paginator.next_page %}
-      <li><a class="next btn btn-ghost" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Articles old">Next &raquo;</a></li>
+      <li><a class="next {{button_class}} text-white bg-slate-400 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Articles old">Next &raquo;</a></li>
     {% else %}
-      <li><span class="next btn btn-ghost disabled">Next &raquo;</span></li>
+      <li><span class="next {{button_class}} bg-slate-100">Next &raquo;</span></li>
     {% endif %}
   </ul>
 </nav>
