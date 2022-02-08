@@ -26,26 +26,6 @@ repo: https://github.com/rafaelcneves/rafaelcneves.github.io
 disqus_shortname: "nevesblog"
 disqus_site_shortname: "nevesblog"
 
-# Author settings
-author:
-  name: Rafael César Neves
-  job: Full Stack Developer
-  presentation: "Sou <strong>Rafael Neves</strong>, <em>desenvolvedor fullstack</em>."
-  short_bio: "Entusiasta de Rails e Flutter, evoluindo constantemente, sempre buscando os melhores desafios e um bom café."
-  thumb: /images/author.jpg
-  email: rafaelcesarneves@gmail.com
-  url: http://rafaelcneves.github.io
-  github: http://github.com/rafaelcneves
-  twitter: http://twitter.com/rafaelcneves
-  facebook: http://facebook.com/rafael.c.neves
-  linkedin: http://linkedin.com/in/rafaelcneves
-  stackoverflow: http://stackoverflow.com/users/2116875/rneves
-
-# navbar pages
-navbar:
-  - slug: links
-    title: Links
-
 exclude:
   - gulp
   - node_modules
@@ -63,5 +43,9 @@ exclude:
   - Rakefile
   - changelog.md
   - vendor
-
-theme: jekyll-theme-cayman
+  - Makefile
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - LICENSE
+  - PULL_REQUEST_TEMPLATE.md

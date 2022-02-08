@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "webrick"
 gem 'github-pages'
 gem "jekyll"
 gem "jekyll-paginate"

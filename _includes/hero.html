@@ -3,12 +3,12 @@
   <figure class="hero-inner flex rounded-xl p-8 bg-slate-100">
 
     <div class="p-4">
-      <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot rounded-full">
+      <img src="{{ site.data.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot rounded-full">
     </div>
     <div class="p-4">
       <h1>Olá!..</h1>
-      <h3>{{ site.author.presentation }}</h3>
-      <h3>{{ site.author.short_bio }}</h3>
+      <h3>{{ site.data.author.presentation }}</h3>
+      <h3>{{ site.data.author.short_bio }}</h3>
     </div>
 
   </figure>

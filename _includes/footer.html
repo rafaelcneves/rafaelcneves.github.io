@@ -1,5 +1,15 @@
 <footer class="site-footer">
   <div class="container">
+    <h3>Links úteis</h3>
+    <ul>
+    {% for link in site.data.links %}
+      <li>
+        <a href="{{ link.url }}">{{ link.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="container">
     {% include social.html %}
     <p class="txt-medium-gray">
       <small>&copy;{{ site.time | date: '%Y' }} All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
