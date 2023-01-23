@@ -2,11 +2,11 @@
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 # , jekyll-admin
 
-paginate: 12
-paginate_path: "/page/:num/"
+# paginate: 12
+# paginate_path: "/page/:num/"
 comments: true
 
 # source: source
